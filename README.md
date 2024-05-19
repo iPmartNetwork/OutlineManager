@@ -84,5 +84,4 @@ php artisan admin:reset
 exit
 ```
 
-## Screenshots
 
