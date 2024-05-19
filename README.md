@@ -9,7 +9,7 @@ Outline Admin is a web interface for the Outline Manager API, providing a simple
 
 ## request system 
 
-Ubuntu +22 debian +10
+Ubuntu +22, debian +10
 
 ## Features
 
