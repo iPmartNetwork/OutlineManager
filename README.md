@@ -25,7 +25,10 @@ Feel free to contribute and make this project better!
 Before proceeding with the installation of Outline Admin, ensure that `docker` and `docker-compose` are installed on your machine. Follow the instructions below:
 
 ```
-apt update && apt upgrade -y
+apt update -y
+```
+```
+apt install docker -y
 ```
 
 ```
