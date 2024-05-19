@@ -6,6 +6,11 @@
 
 Outline Admin is a web interface for the Outline Manager API, providing a simple and user-friendly UI for managing VPN servers.
 
+
+## request system 
+
+Ubuntu +22 debian +10
+
 ## Features
 
 Outline Manager features +
