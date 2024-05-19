@@ -1,0 +1,20 @@
+input, textarea {
+    --bg: transparent;
+    --border: var(--surface-2);
+    --text: inherit;
+
+    background-color: var(--bg);
+    border: 2px solid var(--border);
+    color: var(--text);
+
+    border-radius: 0.64rem;
+    padding: 0.54rem 0.86rem;
+}
+
+input:hover, textarea:hover {
+    --border: var(--surface-3);
+}
+
+input:focus, textarea:focus {
+    --bg: var(--surface-2);
+}

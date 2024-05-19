@@ -1,0 +1,97 @@
+.btn {
+    --bg: transparent;
+    --border: transparent;
+    --text: inherit;
+
+    background-color: var(--bg);
+    border: 2px solid var(--border);
+    color: var(--text);
+
+    border-radius: 0.64rem;
+    padding: 0.54rem 0.86rem;
+
+    font-weight: bolder;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 1rem;
+
+    transition: all 0.16s linear;
+}
+
+.btn-tool {
+    padding: 0.38rem;
+    display: grid;
+    place-items: center;
+}
+
+.btn:hover {
+    --bg-on-hover: var(--primary-brush-light);
+    --border-on-hover: var(--bg-on-hover);
+    --text-on-hover: var(--text-on-primary-light);
+
+    background-color: var(--bg-on-hover);
+    border: 2px solid var(--border-on-hover);
+    color: var(--text-on-hover);
+}
+
+.btn-primary {
+    --bg: var(--primary-brush-1);
+    --border: var(--primary-brush-1);
+    --text: var(--text-on-primary);
+}
+
+.btn-primary:hover {
+    --bg-on-hover: var(--primary-brush-2);
+    --border-on-hover: var(--primary-brush-2);
+    --text-on-hover: var(--text-on-primary);
+}
+
+.btn-secondary {
+    --bg: var(--secondary-brush-1);
+    --border: var(--secondary-brush-1);
+    --text: var(--text-on-secondary);
+}
+
+.btn-secondary:hover {
+    --bg-on-hover: var(--secondary-brush-2);
+    --border-on-hover: var(--secondary-brush-2);
+    --text-on-hover: var(--text-on-secondary);
+}
+
+.btn-danger {
+    --bg: var(--danger-brush-1);
+    --border: var(--danger-brush-1);
+    --text: var(--text-on-danger);
+}
+
+.btn-danger:hover {
+    --bg-on-hover: var(--danger-brush-2);
+    --border-on-hover: var(--danger-brush-2);
+    --text-on-hover: var(--text-on-danger);
+}
+
+.btn-warning {
+    --bg: var(--warning-brush-1);
+    --border: var(--warning-brush-1);
+    --text: var(--text-on-warning);
+}
+
+.btn-warning:hover {
+    --bg-on-hover: var(--warning-brush-2);
+    --border-on-hover: var(--warning-brush-2);
+    --text-on-hover: var(--text-on-warning);
+}
+
+.btn-success {
+    --bg: var(--success-brush-1);
+    --border: var(--success-brush-1);
+    --text: var(--text-on-success);
+}
+
+.btn-success:hover {
+    --bg-on-hover: var(--success-brush-2);
+    --border-on-hover: var(--success-brush-2);
+    --text-on-hover: var(--text-on-success);
+}

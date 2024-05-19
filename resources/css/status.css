@@ -1,0 +1,39 @@
+.status {
+    --bg: var(--surface-1);
+    --text: var(--text-1);
+
+    background-color: var(--bg);
+    color: var(--text);
+
+    font-weight: 600;
+    padding: 0.24rem 0.48rem;
+    border-radius: 0.64rem;
+
+    font-size: smaller;
+    inline-size: fit-content;
+}
+
+.status-primary {
+   --bg: var(--primary-brush-light);
+    --text: var(--text-on-primary-light);
+}
+
+.status-secondary {
+    --bg: var(--secondary-brush-light);
+    --text: var(--text-on-secondary-light);
+}
+
+.status-success {
+    --bg: var(--success-brush-light);
+    --text: var(--text-on-success-light);
+}
+
+.status-warning {
+    --bg: var(--warning-brush-light);
+    --text: var(--text-on-warning-light);
+}
+
+.status-danger {
+    --bg: var(--danger-brush-light);
+    --text: var(--text-on-danger-light);
+}

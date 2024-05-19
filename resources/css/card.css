@@ -1,0 +1,10 @@
+.card {
+    padding: 0.86rem;
+    border-radius: 0.64rem;
+
+    word-break: break-all;
+    white-space: normal;
+
+    background-color: var(--surface-2);
+    border: 2px solid var(--surface-2);
+}

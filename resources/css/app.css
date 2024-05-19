@@ -1,0 +1,96 @@
+@import "props.css";
+@import "button.css";
+@import "card.css";
+@import "dialog.css";
+@import "input.css";
+@import "status.css";
+@import "table.css";
+
+html {
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+    outline: 0.24rem solid var(--ourtine-brush);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    color-scheme: dark;
+
+    background-color: var(--surface-1);
+    color: var(--text-1);
+}
+
+body, input, textarea {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+::placeholder {
+    color: inherit;
+    opacity: 0.48;
+}
+
+.disabled,
+:disabled {
+    pointer-events: none !important;
+    opacity: 0.64 !important;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+code {
+    background-color: var(--primary-brush-light);
+    color: var(--text-on-primary-light);
+    padding: 0.24rem 0.48rem;
+    border-radius: 0.24rem;
+    word-break: break-all;
+    white-space: pre-wrap;
+    display: inline-block;
+}
+
+canvas {
+    border-radius: 1rem;
+}
+
+.disable-scroll {
+    overflow: hidden !important;
+}
+
+#accessKeyQRCodeContainer {
+    inline-size: var(--qr-code-size);
+    block-size: var(--qr-code-size);
+}
+
+.error-message {
+    color: var(--danger-brush-1) !important;
+}
+
+main {
+    min-block-size: 76vh;
+}
+
+.w-max {
+    width: max-content !important;
+}

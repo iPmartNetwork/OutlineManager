@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+export NVM_DIR=~/.nvm && source ~/.nvm/nvm.sh
+
+if [ ! -d /.composer ]; then
+    mkdir /.composer
+fi
+
+chmod -R ugo+rw /.composer
+
+npm ci && npm run build
+
+composer install --ignore-platform-reqs
+
+php artisan key:gen
+php artisan migrate --force
+
+chown -R $(whoami) .
+chmod -R 777 ./bootstrap/cache/
+chmod -R 777 ./storage
+
+php artisan route:clear
+php artisan view:clear
+php artisan config:clear
+
+php artisan route:cache
+php artisan view:cache
+php artisan config:cache
+
+exec /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf

@@ -1,0 +1,67 @@
+:root {
+    --primary-hue: 160deg;
+    --primary-brush-1: hsl(var(--primary-hue), 36%, 54%);
+    --primary-brush-2: hsl(var(--primary-hue), 48%, 64%);
+    --text-on-primary: hsl(var(--primary-hue), 40%, 18%);
+
+    --primary-brush-light: hsla(var(--primary-hue), 48%, 54%, 16%);
+    --text-on-primary-light: hsl(var(--primary-hue), 40%, 64%);
+
+    --secondary-hue: 200deg;
+    --secondary-brush-1: hsl(var(--secondary-hue), 36%, 54%);
+    --secondary-brush-2: hsl(var(--secondary-hue), 48%, 64%);
+    --text-on-secondary: hsl(var(--secondary-hue), 40%, 18%);
+
+    --secondary-brush-light: hsla(var(--secondary-hue), 48%, 54%, 16%);
+    --text-on-secondary-light: hsl(var(--secondary-hue), 40%, 64%);
+
+    --success-hue: 110deg;
+    --success-brush-1: hsl(var(--success-hue), 36%, 54%);
+    --success-brush-2: hsl(var(--success-hue), 48%, 64%);
+    --text-on-success: hsl(var(--success-hue), 40%, 18%);
+
+    --success-brush-light: hsla(var(--success-hue), 48%, 54%, 16%);
+    --text-on-success-light: hsl(var(--success-hue), 40%, 64%);
+
+    --warning-hue: 64deg;
+    --warning-brush-1: hsl(var(--warning-hue), 36%, 54%);
+    --warning-brush-2: hsl(var(--warning-hue), 48%, 64%);
+    --text-on-warning: hsl(var(--warning-hue), 40%, 18%);
+
+    --warning-brush-light: hsla(var(--warning-hue), 48%, 54%, 16%);
+    --text-on-warning-light: hsl(var(--warning-hue), 40%, 64%);
+
+    --danger-hue: 0deg;
+    --danger-brush-1: hsl(var(--danger-hue), 36%, 54%);
+    --danger-brush-2: hsl(var(--danger-hue), 48%, 64%);
+    --text-on-danger: hsl(var(--danger-hue), 40%, 18%);
+
+    --danger-brush-light: hsla(var(--danger-hue), 48%, 54%, 16%);
+    --text-on-danger-light: hsl(var(--danger-hue), 40%, 64%);
+
+    --surface-hue: 240deg;
+    --surface-1: hsl(var(--surface-hue), 8%, 10%);
+    --surface-2: hsl(var(--surface-hue), 8%, 16%);
+    --surface-3: hsl(var(--surface-hue), 8%, 24%);
+
+    --text-hue: 156deg;
+    --text-1: hsl(var(--text-hue), 42%, 96%);
+    --text-2: hsla(var(--text-hue), 42%, 92%, 76%);
+    --text-3: hsla(var(--text-hue), 42%, 86%, 76%);
+
+    --ourtine-brush: hsla(var(--text-hue), 42%, 76%, 76%);
+
+    --table-text: var(--text-1);
+    --table-header-text: var(--text-2);
+    --table-even-rows-bg: var(--surface-2);
+    --table-odd-rows-bg: var(--surface-2);
+    --table-border-brush: var(--surface-3);
+    --table-border-radius: 0.6rem;
+    --table-border-size: 0.12rem;
+
+    --qr-code-text: var(--text-3);
+    --qr-code-bg: var(--surface-1);
+    --qr-code-size: 264px;
+
+    --heart-brush: hsl(0deg, 64%, 50%);
+}

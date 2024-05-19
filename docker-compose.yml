@@ -1,0 +1,19 @@
+services:
+    outline-admin:
+        build:
+            context: ./docker/8.2
+            dockerfile: Dockerfile
+        image: outline-admin
+        extra_hosts:
+            - "host.docker.internal:host-gateway"
+        ports:
+            - "${APP_PORT:-9696}:80"
+            - "${VITE_PORT:-5173}:${VITE_PORT:-5173}"
+        volumes:
+            - ".:/var/www/html"
+        networks:
+            - outline_admin
+        restart: unless-stopped
+networks:
+    outline_admin:
+        driver: bridge

@@ -1,0 +1,58 @@
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    inline-size: 100%;
+    max-inline-size: 100%;
+    border-spacing: 0;
+    color: var(--table-text);
+    border-radius: var(--table-border-radius);
+    border: var(--table-border-size) solid var(--table-border-brush);
+    margin: 0.14rem 0;
+}
+
+table > thead th {
+    color: var(--table-header-text);
+}
+
+table > thead th:first-child {
+    border-start-start-radius: var(--table-border-radius);
+}
+
+table > thead th:last-child {
+    border-start-end-radius: var(--table-border-radius);
+}
+
+table > tbody tr:last-of-type td:first-of-type {
+    border-end-start-radius: var(--table-border-radius);
+}
+
+table > tbody tr:last-of-type td:last-of-type {
+    border-end-end-radius: var(--table-border-radius);
+}
+
+table > thead th, table > tbody td {
+    border: var(--table-border-size) solid var(--table-border-brush);
+    border-block-start: none !important;
+    border-inline-end: none !important;
+    padding: 0.64rem 0.86rem;
+    text-align: center;
+}
+
+table > thead th:first-child, table > tbody td:first-child {
+    border-inline-start: none !important;
+}
+
+table > tbody tr {
+    background-color: var(--table-odd-rows-bg);
+}
+
+table > tbody tr:nth-child(even) {
+    background-color: var(--table-even-rows-bg);
+}
+
+table > tbody tr:last-child > td {
+    border-block-end: none !important;
+}
+
