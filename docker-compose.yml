@@ -1,5 +1,5 @@
 services:
-    outline-admin:
+    OutlineManager:
         build:
             context: ./docker/8.2
             dockerfile: Dockerfile
