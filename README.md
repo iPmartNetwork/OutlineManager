@@ -2,7 +2,7 @@
     <img src="extra/logo/logo.svg" width="200" alt="Outline Logo"> 
 </p>
 
-<h2 align="center">Outline Admin</h2>
+<h2 align="center">OutlineManager</h2>
 
 Outline Admin is a web interface for the Outline Manager API, providing a simple and user-friendly UI for managing VPN servers.
 
