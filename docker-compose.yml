@@ -12,7 +12,7 @@ services:
         volumes:
             - ".:/var/www/html"
         networks:
-            - outline_admin
+            - OutlineManager
         restart: unless-stopped
 networks:
     outline_admin:
