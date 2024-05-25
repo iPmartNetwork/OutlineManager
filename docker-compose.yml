@@ -3,7 +3,7 @@ services:
         build:
             context: ./docker/8.2
             dockerfile: Dockerfile
-        image: OutlineManager
+        image: outline-admin
         extra_hosts:
             - "host.docker.internal:host-gateway"
         ports:
@@ -15,5 +15,5 @@ services:
             - OutlineManager
         restart: unless-stopped
 networks:
-    OutlineManager:
+    outline_admin:
         driver: bridge
