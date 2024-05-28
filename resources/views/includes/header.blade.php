@@ -16,7 +16,7 @@
                     @method('DELETE')
 
                     <button class="btn btn-tool" title="{{ __('Logout') }}">
-                        <x-svg.logout width="24" height="24" />
+                        <x-svg.logout width="82" height="28" />
                     </button>
                 </form>
             @endauth
