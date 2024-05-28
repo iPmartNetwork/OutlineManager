@@ -61,7 +61,7 @@ return [
 
     'author_name' => env('APP_AUTHOR_name', 'iPmartNetWork'),
 
-    'author_url' => env('APP_AUTHOR_URL', 'https://iPmartNetWork.github.io/'),
+    'author_url' => env('APP_AUTHOR_URL', 'https://github.com/iPmartNetWork/'),
 
     'asset_url' => env('ASSET_URL'),
 

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\views",
+    "\\resources\\views\\auth",
+    "\\resources\\views\\components",
+    "\\resources\\views\\components\\svg",
+    "\\resources\\views\\includes",
+    "\\resources\\views\\vendor",
+    "\\resources\\views\\vendor\\pagination"
+  ],
+  "SelectedNode": "\\resources\\views\\includes\\footer.blade.php",
+  "PreviewInSolutionExplorer": false
+}
