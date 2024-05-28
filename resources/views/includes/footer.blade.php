@@ -10,6 +10,6 @@
                 <x-svg.iPmart width="24" height="24" />
             </a>
         </span>
-        <span>{{ __('for iPmart NetWork') }}</span>
+        <span>{{ __('iPmart Network') }}</span>
     </section>
 </footer>
